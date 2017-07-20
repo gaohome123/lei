@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gaolei:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="gaolei.war">
+      <element id="artifact" artifact-name="gaolei:war exploded" />
+    </root>
+  </artifact>
+</component>
