@@ -157,6 +157,26 @@
     </dependencies>
 
     <build>
+        <plugins>
+            <!-- jetty插件：提供web应用运行的环境（tomcat） -->
+            <plugin>
+                <groupId>org.mortbay.jetty</groupId>
+                <artifactId>jetty-maven-plugin</artifactId>
+                <version>8.1.15.v20140411</version>
+                <configuration>
+                    <scanIntervalSeconds>1</scanIntervalSeconds>
+                    <webApp>
+                        <!-- 浏览器访问上下文根 -->
+                        <contextPath>/</contextPath>
+                    </webApp>
+                    <connectors>
+                        <connector implementation="org.eclipse.jetty.server.nio.SelectChannelConnector">
+                            <port>9090</port>
+                        </connector>
+                    </connectors>
+                </configuration>
+            </plugin>
+        </plugins>
         <finalName>gaolei</finalName>
     </build>
 </project>
