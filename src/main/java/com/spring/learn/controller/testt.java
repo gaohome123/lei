@@ -8,5 +8,8 @@ package com.spring.learn.controller;
  */
 public class testt {
 	
+	public static void main(String[] args) {
+		
+	}
 	
 }
