@@ -1,4 +1,4 @@
-package com.spring.learn.controller;
+package modules.controller;
 
 
 /**
