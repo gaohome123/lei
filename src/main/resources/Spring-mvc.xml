@@ -16,7 +16,7 @@
     http://www.springframework.org/schema/mvc/spring-mvc.xsd
     http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <context:component-scan base-package="com.spring.learn.controller"/>
+    <context:component-scan base-package="modules.controller"/>
     <mvc:annotation-driven enable-matrix-variables="true"></mvc:annotation-driven>
     <!--JSON 转换器-->
     <bean id="mappingJacksonHttpMessageConverter"
