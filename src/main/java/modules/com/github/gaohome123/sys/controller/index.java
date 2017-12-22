@@ -1,4 +1,4 @@
-package mappings.modules.sys.controller;
+package modules.com.github.gaohome123.sys.controller;
 
 import common.base.BaseController;
 import org.springframework.stereotype.Controller;
