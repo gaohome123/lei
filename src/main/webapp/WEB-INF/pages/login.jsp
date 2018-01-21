@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="${ctxStatic}/layuicms/css/login.css">
 </head>
 <body>
-<video class="video-player" preload="auto" autoplay="autoplay" loop="loop" data-height="1080" data-width="1920" height="1080" width="1920">
+<video class="video-player" preload="auto" autoplay="autoplay" loop="loop" data-height="1080" <%--data-width="1920" --%>height="1080" <%--width="1920"--%>style="display：block;width:100%;" >  <%--left去掉--%>
     <source src="${ctxStatic}/layuicms/page/login/login.mp4" type="video/mp4">
     <!-- 此视频文件为支付宝所有，在此仅供样式参考，如用到商业用途，请自行更换为其他视频或图片，否则造成的任何问题使用者本人承担，谢谢 -->
 </video>

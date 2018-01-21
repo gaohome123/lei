@@ -28,4 +28,29 @@ http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
   <listener>
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
   </listener>
+  <!--  附：web.xml标签放置顺序
+1. icon?
+2. display-name?
+3. description?
+4. distributable?
+5. context-param*
+6. filter*
+7. filter-mapping*
+8. listener*
+9. servlet*
+10.servlet-mapping*
+11.session-config?
+12.mime-mapping*
+13.welcome-file-list?
+14.error-page*
+15.taglib*
+16.resource-env-ref*
+17.resource-ref*
+18.security-constraint*
+19.login-config?
+20.security-role*
+21.env-entry*
+22.ejb-ref*
+23.ejb-local-ref
+"?"表示该标签出现次数最多为1，"*"表示可以多次出现。 -->
 </web-app>

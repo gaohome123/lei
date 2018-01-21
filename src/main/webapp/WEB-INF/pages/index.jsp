@@ -68,7 +68,7 @@
                 <li class="layui-nav-item showNotice" id="showNotice" pc>
                     <a href="javascript:;"><i class="iconfont icon-gonggao"></i><cite>系统公告</cite></a>
                 </li>
-                <%--<li class="layui-nav-item" mobile>
+                <li class="layui-nav-item" mobile>
                     <a href="javascript:;" class="mobileAddTab" data-url="page/user/changePwd.html"><i class="iconfont icon-shezhi1" data-icon="icon-shezhi1"></i><cite>设置</cite></a>
                 </li>
                 <li class="layui-nav-item" mobile>
@@ -88,7 +88,7 @@
                         <dd><a href="javascript:;" class="changeSkin"><i class="iconfont icon-huanfu"></i><cite>更换皮肤</cite></a></dd>
                         <dd><a href="${ctxStatic}/layuicms/page/login/login.html" class="signOut"><i class="iconfont icon-loginout"></i><cite>退出</cite></a></dd>
                     </dl>
-                </li>--%>
+                </li>
             </ul>
         </div>
     </div>
@@ -96,7 +96,7 @@
     <div class="layui-side layui-bg-black">
         <div class="user-photo">
             <a class="img" title="我的头像" ><img src="${ctxStatic}/layuicms/images/face.jpg"></a>
-            <p>你好！<span class="userName">请叫我马哥</span>, 欢迎登录</p>
+            <p>你好！<span class="userName">请叫我雷哥</span>, 欢迎登录</p>
         </div>
         <div class="navBar layui-side-scroll"></div>
     </div>
