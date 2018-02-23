@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:jaxws="http://cxf.apache.org/jaxws"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd">
+
+    <!-- cxf必要配置 -->
+    <import resource="classpath:META-INF/cxf/cxf.xml" />
+    <import resource="classpath:META-INF/cxf/cxf-servlet.xml" />
+
+    <jaxws:endpoint
+            id="reportEntity"
+            implementor="modules.com.github.gaohome123.webservice.service.ReportEntityServiceImpl"
+            address="/findReportEntity"></jaxws:endpoint>
+
+    <jaxws:endpoint
+            id="reportEntity2"
+            implementor="modules.com.github.gaohome123.webservice.service.ReportEntityServiceImpl2"
+            address="/findReportEntity2"></jaxws:endpoint>
+
+</beans>

@@ -1,9 +1,9 @@
-      **_`IDEA 使用练习`_**
+##IDEA 使用练习
       改变git 地址
       git remote rm origin
       git remote add origin https://github.com/gaohome123/ssmDemo.git
       
-      **git 用远程覆盖本地**
+      ##git 用远程覆盖本地
       
       git fetch --all
       git reset --hard origin/master
@@ -16,3 +16,6 @@
            @ApiParam(required = “是否必须参数”, name = “参数名称”, value = “参数具体描述”
            https://www.cnblogs.com/xmplatform/p/5785065.html
            https://www.jianshu.com/p/67c9b84226cd
+           
+ ## webservice 集成
+  http://blog.csdn.net/lkmtao/article/details/54644681
